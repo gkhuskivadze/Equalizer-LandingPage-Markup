@@ -1,0 +1,492 @@
+/* ############## TEXT STYLING ##############*/
+
+.main-title h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.45px;
+  color: rgba(25, 24, 38, 1);
+}
+.main-subtitle p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: rgba(25, 24, 38, 1);
+}
+
+.secondary-title h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: rgba(252, 250, 249, 1);
+}
+.secondary-subtitle p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: rgba(252, 250, 249, 1);
+}
+
+.price-box .month-span {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.2px;
+  color: rgba(252, 250, 249, 1);
+}
+
+.price-box .num-span {
+  font-weight: 700;
+  font-size: 6.5rem;
+  line-height: 5.2rem;
+  color: rgba(252, 250, 249, 1);
+}
+
+span.btn-text {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.18px;
+}
+
+.ios-btn span {
+  color: rgba(252, 250, 249, 1);
+}
+
+.android-btn span {
+  color: rgba(25, 24, 38, 1);
+}
+
+.footer-info {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: rgba(25, 24, 38, 1);
+}
+.footer-info a {
+  font-weight: 700;
+  color: rgba(25, 24, 38, 1);
+}
+
+/* ############## SPACING BETWEEN ELEMENTS ##############*/
+.page {
+  padding: 3.9rem 2.4rem 8.1rem 2.4rem;
+}
+
+.main-title {
+  margin: 6.4rem 0 2rem 0;
+}
+.main-subtitle {
+  margin: 0 0 16.6rem 0;
+}
+
+.blue-box,
+.orange-box {
+  margin: 0 -2.4rem;
+}
+
+.blue-box {
+  background-color: rgba(25, 24, 38, 1);
+}
+
+.orange-box {
+  background-color: rgba(250, 116, 83, 1);
+  padding: 4.8rem 3.6rem 4.8rem 3.6rem;
+  border-radius: 1.2rem;
+}
+
+.secondary-subtitle {
+  margin: 1.2rem 0 3.6rem 0;
+}
+.price-box {
+  margin: 0 0 3.2rem 0;
+}
+.num-span {
+  margin-right: 1.6rem;
+}
+
+.apple-icon {
+  margin-right: 0.78rem;
+}
+
+.android-icon {
+  margin-right: 0.78rem;
+}
+
+.footer {
+  padding: 6.4rem 0 0 0;
+}
+.footer-header {
+  margin: 0 0 0 1.15px;
+}
+.footer-info {
+  margin: 3.2rem 0 6.4rem 0;
+  padding: 0 3rem 0 0;
+}
+
+.buttons button {
+  width: 29.6rem;
+  height: 6.1rem;
+}
+
+/* ############## CENTERING OF ELEMENTS ##############*/
+
+.price-box {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* ############## VISUAL STYLING OF ELEMENTS ##############*/
+
+.page {
+  background-image: url(../assets/bg-main-mobile.png);
+  /* background-position: 2.4rem -25.5rem; */
+  background-position: -0.5999999999999996rem -25.5rem;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.blue-box {
+  height: 60rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -220px;
+  z-index: -1;
+  padding: 0 4.8rem;
+}
+
+.appphoto-cont img {
+  width: 100%;
+}
+
+.pattern-cont img {
+  /* width: 90%; */
+  width: 28rem;
+}
+
+.appphoto-cont {
+  width: 208px;
+  position: absolute;
+  top: -9.8rem;
+  left: center;
+}
+
+.buttons button {
+  border-radius: 1.2rem;
+  transition: all 0.4s;
+}
+
+.ios-btn {
+  background-color: rgba(25, 24, 38, 1);
+}
+
+.android-btn {
+  background-color: rgba(252, 250, 249, 1);
+}
+
+.ios-btn:hover {
+  background-color: rgba(102, 226, 220, 1);
+}
+
+.android-btn:hover {
+  background-color: rgba(255, 185, 100, 1);
+}
+
+.social-links a:active {
+  color: red;
+}
+
+.logo img:hover,
+.footer-header img:hover {
+  cursor: pointer;
+}
+
+/* .social-links img:hover {
+  fill: rgba(250, 116, 83, 1);
+} */
+
+@media screen and (min-width: 767px) {
+  /* ############## TEXT STYLING ##############*/
+
+  .main-title h1 {
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.73px;
+  }
+  .main-subtitle p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  /* ############## SPACING BETWEEN ELEMENTS ##############*/
+  .page {
+    padding: 6.2rem 3.9rem 8.5rem 3.3rem;
+  }
+
+  .main-title {
+    margin: 9.5rem 0 2.8rem 0;
+    width: 44rem;
+  }
+  .main-subtitle {
+    margin: 0 0 25rem 0;
+    width: 51rem;
+  }
+
+  .blue-box,
+  .orange-box {
+    margin: unset;
+  }
+
+  .orange-box {
+    background-color: rgba(250, 116, 83, 1);
+    padding: 4.8rem;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 92.2rem;
+    left: 27.8rem;
+    width: 40rem;
+  }
+
+  .secondary-subtitle {
+    margin: 1.2rem 0 3.6rem 0;
+  }
+  .price-box {
+    margin: 0 0 3.2rem 0;
+  }
+  .num-span {
+    margin-right: 1.6rem;
+  }
+
+  .apple-icon {
+    margin-right: 0.792rem;
+  }
+
+  .android-icon {
+    margin-right: 0.792rem;
+  }
+
+  .footer {
+    margin: 18.2rem 0 0 0;
+  }
+  .footer-header {
+    margin: 0 0 0 1.15px;
+  }
+
+  .footer-flex {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-info {
+    margin: unset;
+    width: 36rem;
+  }
+
+  .buttons button {
+    width: 29.6rem;
+    height: 6.1rem;
+  }
+
+  /* ############## VISUAL STYLING OF ELEMENTS ##############*/
+
+  .page {
+    background-image: url(../assets/bg-pattern-1.svg),
+      url(../assets/bg-main-tablet.png);
+    background-position: right -4.2rem top -3.5rem, right -11rem top -29rem;
+    background-size: 27.9rem 41.4rem, auto;
+    background-repeat: no-repeat, no-repeat;
+    overflow-x: hidden;
+  }
+
+  .blue-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: unset;
+    z-index: -1;
+    padding: unset;
+    border-radius: 12px;
+    width: 69.6rem;
+  }
+
+  .appphoto-cont img {
+    width: 100%;
+  }
+
+  .pattern-cont img {
+    /* width: 90%; */
+    width: 28rem;
+    margin: -31px -43px 0px 3px;
+  }
+
+  .appphoto-cont {
+    width: 270px;
+    position: absolute;
+    top: -13.8rem;
+    left: 6.8rem;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  /* ############## TEXT STYLING ##############*/
+
+  .main-title h1 {
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+  }
+  .main-subtitle p {
+    font-size: 2rem;
+    line-height: 3.4rem;
+  }
+
+  .secondary-title h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    color: rgba(252, 250, 249, 1);
+  }
+  .secondary-subtitle p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: rgba(252, 250, 249, 1);
+  }
+
+  /* ############## SPACING BETWEEN ELEMENTS ##############*/
+  .page {
+    padding: 6.2rem 16.5rem 9.1rem 16.5rem;
+  }
+
+  .main-title {
+    margin: 12.7rem 0 4rem 0;
+    width: 86rem;
+  }
+  .main-subtitle {
+    margin: 0 0 32.1rem 0;
+    width: 85rem;
+  }
+
+  .blue-box,
+  .orange-box {
+    margin: unset;
+  }
+
+  .orange-box {
+    background-color: rgba(250, 116, 83, 1);
+    padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 96rem;
+    left: 73.4rem;
+    width: 44.6rem;
+  }
+
+  .secondary-subtitle {
+    margin: 2.2rem 0 3.9rem 0;
+  }
+  .price-box {
+    margin: 0 0 4.6rem 0;
+  }
+  .num-span {
+    margin-right: 1.6rem;
+  }
+
+  .apple-icon {
+    margin-right: 0.792rem;
+  }
+
+  .android-icon {
+    margin-right: 0.792rem;
+  }
+
+  .footer {
+    margin: 20.1rem 0 0 0;
+    padding: unset;
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer-header {
+    margin: 0 13.7rem 0 1.15px;
+  }
+
+  .footer-flex {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 auto; */
+    margin: unset;
+    flex: 1 0;
+  }
+  .footer-info {
+    margin: unset;
+    width: 36rem;
+  }
+
+  .buttons button {
+    width: 33.3rem;
+    height: 6.1rem;
+  }
+
+  /* ############## VISUAL STYLING OF ELEMENTS ##############*/
+
+  .page {
+    background-image: url(../assets/bg-pattern-1.svg),
+      url(../assets/bg-main-desktop.png);
+    background-position: right 0 top -4.5rem, right -21rem top -25rem;
+    background-size: 27.9rem 41.4rem, auto;
+    background-repeat: no-repeat, no-repeat;
+    overflow-x: hidden;
+  }
+
+  .blue-box {
+    /* position: relative;
+    display: flex;
+    justify-content: center; */
+
+    margin: unset;
+    padding: unset;
+    border-radius: 12px;
+    width: 111rem;
+  }
+
+  .appphoto-cont img {
+    width: 100%;
+  }
+
+  .pattern-cont img {
+    width: 30rem;
+    margin: -28px 133px 0 0;
+  }
+
+  .appphoto-cont {
+    width: 31.2rem;
+    position: absolute;
+    top: -21.3rem;
+    left: 10.2rem;
+  }
+
+  a > svg:hover {
+    fill: rgba(250, 116, 83, 1);
+  }
+}
